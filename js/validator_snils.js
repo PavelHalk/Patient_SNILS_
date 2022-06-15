@@ -1,27 +1,30 @@
 /*validator_snils.js for tests*/
 
 function validateSnils(snils, error) {
-	var result = false;
-	if (typeof snils === 'number') {
+	var result = false; var sum; var i;
+	var checkDigit;
+	if (typeof snils === "number") {
 		snils = snils.toString();
-	} else if (typeof snils !== 'string') {
-		snils = '';
+	} else if (typeof snils !== "string") {
+		snils = "";
 	}
 	if (!snils.length) {
 		error.code = 1;
-		error.message = 'СНИЛС пуст';
+		error.message = "СНИЛС пуст";
 	} else if (/[^0-9]/.test(snils)) {
 		error.code = 2;
-		error.message = 'СНИЛС может состоять только из цифр';
+		error.message = "СНИЛС может состоять только из цифр";
 	} else if (snils.length !== 11) {
 		error.code = 3;
-		error.message = 'СНИЛС может состоять только из 11 цифр';
+		error.message = "СНИЛС может состоять только из 11 цифр";
 	} else {
-		var sum = 0;
-		for (var i = 0; i < 9; i++) {
+		sum = 0;
+		i = 0;
+		while (i < 9) {
 			sum += parseInt(snils[i]) * (9 - i);
+			i+=1;
 		}
-		var checkDigit = 0;
+		checkDigit = 0;
 		if (sum < 100) {
 			checkDigit = sum;
 		} else if (sum > 101) {
@@ -34,7 +37,7 @@ function validateSnils(snils, error) {
 			result = true;
 		} else {
 			error.code = 4;
-			error.message = 'Неправильное контрольное число';
+			error.message = "Неправильное контрольное число";
 		}
 	}
 	return result;
