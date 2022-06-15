@@ -20,6 +20,7 @@ function validateSnils(snils, error) {
 	} else {
 		sum = 0;
 		i = 0;
+
 		while (i < 9) {
 			sum += parseInt(snils[i]) * (9 - i);
 			i+=1;

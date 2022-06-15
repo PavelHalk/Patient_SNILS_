@@ -18,6 +18,7 @@ function getTests(errorCodeForZero) {
 var script;
 script  = document.createElement('script');
 script.onload = function () {
+
     QUnit.test("Snils", function (assert) {
         var valid;
         var i; var error;

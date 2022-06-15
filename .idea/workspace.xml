@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ec33806-be37-4534-a741-9f15c3923ba8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/js/qunit-2.1.1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/data_validation_snils.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/data_validation_snils.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/validator_snils.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/validator_snils.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jslint/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/jslint/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data-validation-tests.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/data-validation-tests.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -100,8 +94,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/validator_snils.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+            <state relative-caret-position="510">
+              <caret line="30" column="43" lean-forward="true" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -221,7 +215,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1655294646181" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1655295023390" />
     <property name="last.edited.regexp" value="53" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -264,7 +258,7 @@
       <workItem from="1655108652103" duration="8998000" />
       <workItem from="1655173680097" duration="4359000" />
       <workItem from="1655180585642" duration="28989000" />
-      <workItem from="1655264391895" duration="7825000" />
+      <workItem from="1655264391895" duration="8162000" />
     </task>
     <task id="LOCAL-00001" summary="delete warning">
       <created>1655179436176</created>
@@ -574,15 +568,28 @@
       <option name="project" value="LOCAL" />
       <updated>1655216997333</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="the last update version 2.0.0">
+      <created>1655294838623</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1655294838623</updated>
+    </task>
+    <task id="LOCAL-00046" summary="the last update version 2.0.0">
+      <created>1655294978523</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1655294978523</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50171000" />
+    <option name="totallyTimeSpent" value="50508000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16151386" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -605,7 +612,7 @@
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Inspection Results" order="12" visible="true" weight="0.32974428" />
-      <window_info active="true" anchor="bottom" x="959" y="31" width="932" height="1001" id="Version Control" order="13" visible="true" weight="0.15926327" />
+      <window_info anchor="bottom" x="959" y="31" width="932" height="1001" id="Version Control" order="13" weight="0.15926327" />
       <window_info anchor="bottom" id="File Transfer" order="14" sideWeight="0.49946696" visible="true" weight="0.14842904" />
       <window_info anchor="bottom" id="Messages" order="15" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -743,7 +750,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="function validateSnils: validate a data (a sum of digit SNILS for check number)" />
     <MESSAGE value="function validateSnils: validate a data (each digit of the SNILS is multiplied by the number of its position the resulting products are summed the last two digits of the remainder are a control number)" />
     <MESSAGE value="function validateSnils: validate a data (the last two digits of the remainder are should not exceed the value of 100)" />
     <MESSAGE value="function validateSnils_: validate a data and output in massage (var) for div" />
@@ -768,7 +774,8 @@
     <MESSAGE value="full" />
     <MESSAGE value="update QUnit testing data" />
     <MESSAGE value="the last update version 1.0.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="the last update version 1.0.0" />
+    <MESSAGE value="the last update version 2.0.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="the last update version 2.0.0" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -1022,8 +1029,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/validator_snils.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+        <state relative-caret-position="510">
+          <caret line="30" column="43" lean-forward="true" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
